@@ -1,0 +1,30 @@
+# ─── Segredos — NUNCA comitar ───
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.local.*
+
+# ─── Backups de dados exportados ───
+*backup*.json
+fluxadmin_*backup*.json
+
+# ─── Dependências (caso adicione tooling/backend) ───
+node_modules/
+dist/
+build/
+
+# ─── Sistema operacional ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editores ───
+.vscode/
+.idea/
+*.swp
+
+# ─── Logs ───
+*.log
+npm-debug.log*
